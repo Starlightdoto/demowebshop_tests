@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DemoWebShopTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-09T17:53:27" hostname="Almass-MacBook.local" time="3.466">
+  <properties/>
+  <testcase name="Subscribe to newsletter with invalid email" classname="DemoWebShopTests" time="3.466"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+Content-Length: 162
+Content-Type: application/json; charset=utf-8
+Date: Thu, 09 Feb 2023 17:53:29 GMT
+Server: Microsoft-IIS/10.0
+Cache-Control: private
+Content-Encoding: gzip
+Set-Cookie: Nop.customer=c4cfaee6-585f-468b-b12c-ec2e8a9b2261; expires=Fri, 09-Feb-2024 17:53:29 GMT; path=/; HttpOnly
+Vary: Accept-Encoding
+X-AspNetMvc-Version: 5.2
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+{
+    "Success": false,
+    "Result": "Enter valid email"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

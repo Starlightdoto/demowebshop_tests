@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Length: 162
+.Content-Type: application/json; charset=utf-8
+$Date: Thu, 09 Feb 2023 17:53:29 GMT
+Server: Microsoft-IIS/10.0
+Cache-Control: private
+Content-Encoding: gzip
+wSet-Cookie: Nop.customer=c4cfaee6-585f-468b-b12c-ec2e8a9b2261; expires=Fri, 09-Feb-2024 17:53:29 GMT; path=/; HttpOnly
+Vary: Accept-Encoding
+X-AspNetMvc-Version: 5.2
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+{
+    "Success": false,
+"    "Result": "Enter valid email"
+}
