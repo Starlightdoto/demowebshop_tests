@@ -6,12 +6,12 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
 public class DemoWebShopTests extends BaseTest{
-    String COOKIE_VALUE = "fc06465c332dbd696c292ada76ec7d7733108ecefdc4475406a3ff997944f96b;" +
+    final String COOKIE_VALUE = "fc06465c332dbd696c292ada76ec7d7733108ecefdc4475406a3ff997944f96b;" +
             " ARRAffinitySameSite=fc06465c332dbd696c292ada76ec7d7733108ecefdc4475406a3ff997944f96b;" +
             " __utma=78382081.200163836.1675961800.1675961800.1675961800.1; __utmc=78382081;" +
             " __utmz=78382081.1675961800.1.1.utmcsr=qa.guru|utmccn=(referral)|utmcmd=referral|utmcct=/;" +
             " __RequestVerificationToken=9Hw5_lVnPwDYtunqU0WfeQUXymcpSQ5-eZKk_UULOHNLqKb5Iw9HvsRboCrdvlkbLVJLJfd3woW1NFtDFSel-PSRQC4h7w2crzuNlMxIBgE1;";
-    String COOKIE_KEY = "ARRAffinity";
+    final String COOKIE_KEY = "ARRAffinity";
     String body = "product_attribute_74_5_26=81&product_attribute_74_6_27=83&product_attribute_74_3_28=86&addtocart_74.EnteredQuantity=1";
 
 
